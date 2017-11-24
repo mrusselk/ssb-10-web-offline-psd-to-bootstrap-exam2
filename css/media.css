@@ -1,0 +1,179 @@
+/*EXTRA SMALL MEDIA*/
+@media (max-width: 767px){
+	header{
+    min-height: 700px;
+    background: url(../img/banner2.png) no-repeat;
+    background-size:cover;
+    background-position: center;
+    margin-bottom: 80px;
+
+	}
+	.logo-for-small{
+		text-align: center;
+	}
+	.social-for-small{
+		text-align: center;
+	}
+	.banner-caption{
+		text-align: center;
+		margin-top: 100px;
+	}
+	.banner-caption h1{
+		font-size: 24px;
+	}
+	.banner-text{
+	    color:#fff;
+	    margin-top: 20px;
+	    text-align: center;
+	}
+	.banner-btns{
+   	 margin-top: 30px;
+   	 text-align: center;
+	}
+	.download-btn{
+	display: inline-block;
+    background-color:#fc6a42;
+    border:none;
+    font-size: 18px;
+    font-weight: 700;
+    width:155px;
+    height: 53px;
+    padding-top:13px;
+    border:none;
+    margin-right: 10px;
+    margin-bottom: 15px;
+	}
+
+	.feature-btn{
+		margin-right: 15px;
+		margin-bottom: 15px;
+	}
+	.single-feature{
+		margin-bottom: 40px;
+	}
+
+	.single-screenshot{
+		text-align: center;
+		margin-top: 20px;
+	}
+	.cloudy-screenshot-row{
+    	margin-top: 20px;
+	}
+	.screenshot-img{
+        text-align: center!important;
+	}
+
+	.screenshot-img .img-responsive{
+	    display: inline-block;
+	}
+
+
+	.footer-nav ul li{
+    display: block;
+	}
+	.footer-social-icons{
+		text-align: center;
+	}
+	.footer-social-icons ul li{
+    margin-left: 0px;
+	}
+	.footer-social-icons ul li a{
+	    
+	    padding-right: 10px;
+	    padding-left: 10px;
+	}
+	.footer-logo{
+		text-align: center;
+	}
+
+
+	.download-section:after{
+        position: absolute;
+        content:'';
+        width:100%;
+        height: 100%;
+        top:65px;
+        left:510px;
+        z-index: -1;
+    }
+	.download-content p{
+		margin-bottom: 15px;
+	}
+	.appstore-img{
+		display: inline-block;
+    	margin-bottom: 15px;
+	}
+	.download-btns{
+		margin-top: 10px;
+	}
+	.play-img{
+		display: inline-block;
+		padding-bottom: 30px;
+	}
+}
+/*SMALL MEDIA*/
+@media (min-width: 768px) and (max-width: 991px){
+	.logo-for-small{
+		text-align: center;
+	}
+	.social-for-small{
+		text-align: center;
+	}
+
+	.banner-caption h1{
+		font-size: 36px;
+	}
+	.banner-text{
+	    color:#fff;
+	    margin-top: 20px;
+	}
+	.banner-btns{
+   	 margin-top: 30px;
+	}
+	.single-feature{
+		margin-bottom: 60px;
+	}
+	.footer-social-icons{
+		text-align: center;
+	}
+	.footer-logo{
+		text-align: center;
+	}
+
+	.single-screenshot{
+		text-align: center;
+		margin-top: 20px;
+	}
+
+	.screenshot-img{
+        text-align: center!important;
+	}
+
+	.screenshot-img .img-responsive{
+	    display: inline-block;
+	}
+	.download-section:after{
+        position: absolute;
+        content:'';
+        width:100%;
+        height: 100%;
+        top:65px;
+        left:510px;
+        z-index: -1;
+    }
+
+}
+	
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px){
+	
+}
+
+
+/*LARGE MEDIA*/
+@media (min-width: 1200px) {
+	
+	
+}
