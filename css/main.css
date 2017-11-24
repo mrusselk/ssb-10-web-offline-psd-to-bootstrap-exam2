@@ -240,7 +240,44 @@ header{
 .screenshot-icon{
     margin-bottom: 30px;
 }
+.data ul{
+    /*list-style: none;*/
+    margin:0;
+    padding:0;
+}
+.data {
+    margin-top: 30px;
+}
+.data ul li{
+    display: inline-block;
+    border-radius: 50%;
+    /*padding:10px;*/
+    text-align: center;
+    /*border:1px solid;*/
+    line-height: 60px;
+    width:60px;
+    height: 60px;
+    margin-left: -15px;
+    box-shadow: 5px 0px 15px 0px #ededf2;
+    background-color: #fff;
+    color:#c3cfe5;
+    font-size: 16px;
+    position: relative;
+}
 
+.data ul li:first-child{
+    margin-left: 0;
+    }
+
+.data ul li:nth-child(1){
+    z-index: 2
+}
+.data ul li:nth-child(2){
+    z-index: 1
+}
+.data ul li:nth-child(3){
+    z-index: 0
+}
 
 /*SCREENSHOT SECTION END*/
 
