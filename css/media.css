@@ -110,7 +110,13 @@
 		display: inline-block;
 		padding-bottom: 30px;
 	}
+	.copyright{
+    	text-align: center;
+	}
 }
+
+
+
 /*SMALL MEDIA*/
 @media (min-width: 768px) and (max-width: 991px){
 	.logo-for-small{
@@ -161,6 +167,9 @@
         left:510px;
         z-index: -1;
     }
+	.copyright{
+    	text-align: center;
+	}
 
 }
 	
