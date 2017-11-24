@@ -11,6 +11,9 @@
 	.logo-for-small{
 		text-align: center;
 	}
+	.head-social-icons{
+    		margin-top: 0px;
+	}
 	.social-for-small{
 		text-align: center;
 	}
@@ -121,6 +124,9 @@
 @media (min-width: 768px) and (max-width: 991px){
 	.logo-for-small{
 		text-align: center;
+	}
+	.head-social-icons{
+    		margin-top: 0px;
 	}
 	.social-for-small{
 		text-align: center;
