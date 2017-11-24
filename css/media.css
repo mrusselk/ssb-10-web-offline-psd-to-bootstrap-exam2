@@ -17,6 +17,19 @@
 	.social-for-small{
 		text-align: center;
 	}
+	
+	.head-social-icons ul li{
+    		display: inline-block;
+    		margin-left: 0px;
+	}
+	.head-social-icons ul li a{
+	    color:#fff;
+	    font-size: 28px;
+	    margin-left: 10px;
+	    margin-right: 10px;
+	}
+	
+	
 	.banner-caption{
 		text-align: center;
 		margin-top: 100px;
@@ -132,6 +145,19 @@
 		text-align: center;
 	}
 
+	
+	.head-social-icons ul li{
+   		 display: inline-block;
+  		  margin-left: 0px;
+	}
+	.head-social-icons ul li a{
+	    color:#fff;
+	    font-size: 28px;
+	    margin-left: 10px;
+	    margin-right: 10px;
+	}
+	
+	
 	.banner-caption h1{
 		font-size: 36px;
 	}
