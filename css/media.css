@@ -127,15 +127,18 @@
 	}
 	.appstore-img{
 		display: inline-block;
-    	margin-bottom: 15px;
+    		margin-bottom: 15px;
+    		box-shadow: 0px 0px 15px 0px #ededf2;
+	}
+	.play-img{
+		display: inline-block;
+		margin-bottom: 30px;
+		box-shadow: 0px 0px 15px 0px #ededf2;
 	}
 	.download-btns{
 		margin-top: 10px;
 	}
-	.play-img{
-		display: inline-block;
-		padding-bottom: 30px;
-	}
+	
 	.copyright{
     	text-align: center;
 	}
@@ -219,6 +222,17 @@
         background-color: rgba(0,0,0,0.4);
         z-index: -1;
     }
+	.appstore-img{
+		display: inline-block;
+    	margin-bottom: 15px;
+    	box-shadow: 0px 0px 15px 0px #ededf2;
+	}
+	.play-img{
+		display: inline-block;
+		margin-bottom: 30px;
+		box-shadow: 0px 0px 15px 0px #ededf2;
+	}
+	
 	.copyright{
     	text-align: center;
 	}
