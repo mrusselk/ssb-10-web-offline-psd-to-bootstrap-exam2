@@ -105,11 +105,21 @@
 
 	.download-section:after{
         position: absolute;
-        content:'';
+        content:content:url(../img/mobiles.png);
         width:100%;
         height: 100%;
         top:65px;
-        left:510px;
+        left:0px;
+        z-index: -2;
+    }
+	.download-section:before{
+        position: absolute;
+        content:'';
+        width:100%;
+        height: 100%;
+        top:0;
+        left:0;
+        background-color: rgba(0,0,0,0.4);
         z-index: -1;
     }
 	.download-content p{
@@ -192,11 +202,21 @@
 	}
 	.download-section:after{
         position: absolute;
-        content:'';
+        content:content:url(../img/mobiles.png);
         width:100%;
         height: 100%;
         top:65px;
-        left:510px;
+        left:100px;
+        z-index: -2;
+    }
+	.download-section:before{
+        position: absolute;
+        content:'';
+        width:100%;
+        height: 100%;
+        top:0;
+        left:0;
+        background-color: rgba(0,0,0,0.4);
         z-index: -1;
     }
 	.copyright{
