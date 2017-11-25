@@ -1,11 +1,20 @@
 /*EXTRA SMALL MEDIA*/
 @media (max-width: 767px){
+	
+	.section-title h2, .screenshot-title h2{
+	    font-size: 28px;
+	    font-weight: 700;
+	    color:#648cff;
+	    text-transform: uppercase;
+	    margin-bottom: 15px;
+	}
+	
 	header{
-    min-height: 700px;
-    background: url(../img/banner2.png) no-repeat;
-    background-size:cover;
-    background-position: center;
-    margin-bottom: 80px;
+	    min-height: 700px;
+	    background: url(../img/banner2.png) no-repeat;
+	    background-size:cover;
+	    background-position: center;
+	    margin-bottom: 80px;
 
 	}
 	.logo-for-small{
