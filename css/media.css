@@ -57,16 +57,16 @@
 	}
 	.download-btn{
 	display: inline-block;
-    background-color:#fc6a42;
-    border:none;
-    font-size: 18px;
-    font-weight: 700;
-    width:155px;
-    height: 53px;
-    padding-top:13px;
-    border:none;
-    margin-right: 10px;
-    margin-bottom: 15px;
+	    background-color:#fc6a42;
+	    border:none;
+	    font-size: 18px;
+	    font-weight: 700;
+	    width:155px;
+	    height: 53px;
+	    padding-top:13px;
+	    border:none;
+	    margin-right: 10px;
+	    margin-bottom: 15px;
 	}
 
 	.feature-btn{
@@ -92,6 +92,31 @@
 	    display: inline-block;
 	}
 
+	
+	.single-quote:before{
+	    position: absolute;
+	    content:'';
+	    background: url(../img/q-left.png) no-repeat 0 0;
+	    background-size: 20px;
+	    width:20;
+	    height: 20;
+	    top:-20px;
+	    left:0;
+
+	}
+
+	.single-quote:after{
+	    position: absolute;
+	    content:'';
+	    background: url(../img/q-right.png) no-repeat 0 0;
+	    background-size: 20px;
+	    width:20px;
+	    height: 20px;
+	    bottom:-20px;
+	    right:0;
+	}
+	
+	
 
 	.footer-nav ul li{
     display: block;
@@ -241,6 +266,32 @@
 		margin-bottom: 30px;
 		box-shadow: 0px 0px 15px 0px #ededf2;
 	}
+	
+	
+	.single-quote:before{
+	    position: absolute;
+	    content:'';
+	    background: url(../img/q-left.png) no-repeat 0 0;
+	    background-size: 30px;
+	    width:30;
+	    height: 30;
+	    top:-30px;
+	    left:0;
+
+	}
+
+	.single-quote:after{
+	    position: absolute;
+	    content:'';
+	    background: url(../img/q-right.png) no-repeat 0 0;
+	    background-size: 30px;
+	    width:30px;
+	    height: 30px;
+	    bottom:-30px;
+	    right:0;
+	}
+	
+	
 	
 	.copyright{
     	text-align: center;
