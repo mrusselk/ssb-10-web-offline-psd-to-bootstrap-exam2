@@ -7,9 +7,9 @@ $(document).ready(function(){
 
     $('html, body').animate({
       'scrollTop': $target.offset().top
-      }, 1000, 'swing', function(){
-        window.location.hash = target;
-    });
+      }, 1000, 'swing' 
+//      ,function(){window.location.hash = target;}
+    );
     
   });
 });
